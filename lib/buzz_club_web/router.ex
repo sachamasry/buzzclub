@@ -2,10 +2,16 @@ defmodule BuzzClubWeb.Router do
   use BuzzClubWeb, :router
 
   pipeline :browser do
-    plug :accepts, ["html"]
+    plug :accepts, [
+      "html",
+      "swiftui"
+      # jetpack: {MyAppWeb.Layouts.Jetpack, :root}
+    ]
     plug :fetch_session
     plug :fetch_live_flash
-    plug :put_root_layout, html: {BuzzClubWeb.Layouts, :root}
+    plug :put_root_layout,
+      html: {BuzzClubWeb.Layouts, :root},
+      swiftui: {BuzzClubWeb.Layouts.SwiftUI, :root}
     plug :protect_from_forgery
     plug :put_secure_browser_headers
   end
@@ -17,7 +23,8 @@ defmodule BuzzClubWeb.Router do
   scope "/", BuzzClubWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    # get "/", PageController, :home
+    live "/", HomeLive
   end
 
   # Other scopes may use custom stacks.

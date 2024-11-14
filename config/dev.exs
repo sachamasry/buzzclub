@@ -55,7 +55,10 @@ config :buzz_club, BuzzClubWeb.Endpoint,
     patterns: [
       ~r"priv/static/(?!uploads/).*(js|css|png|jpeg|jpg|gif|svg)$",
       ~r"priv/gettext/.*(po)$",
-      ~r"lib/buzz_club_web/(controllers|live|components)/.*(ex|heex)$"
+      ~r"lib/buzz_club_web/(controllers|live|components)/.*(ex|heex)$",
+      ~r"lib/buzz_club_web/(live|components)/.*neex$",
+      ~r"lib/buzz_club_web/styles/.*ex$",
+      ~r"priv/static/*.styles$"
     ]
   ]
 
@@ -80,3 +83,7 @@ config :phoenix_live_view,
 
 # Disable swoosh api client as it is only required for production adapters.
 config :swoosh, :api_client, false
+
+config :live_view_native_stylesheet,
+  annotations: true,
+  pretty: true

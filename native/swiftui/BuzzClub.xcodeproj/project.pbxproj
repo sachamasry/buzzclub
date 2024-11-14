@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A2F771A53488611BA561FB5 /* BuzzClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C893D579AEC1F4A25DD4696C /* BuzzClub.swift */; };
+		28AC135EC4F5D59AAEA06002 /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745210B07B02E3D8FD1F151 /* ConnectingView.swift */; };
+		2E0A143F13DE27CABA518BFC /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35392DAFD95E85C74E7B609 /* ReconnectingView.swift */; };
+		3A4CB1E26C0D98B893955703 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77656E1C917B8D87E1BE9F39 /* Preview Assets.xcassets */; };
+		3FBE4BB233E6B5460D7E0C13 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = 3849B2C95721FBCF958A16FF /* LiveViewNative */; };
+		43F042329643E192486D37F7 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AC1D50C1914FC80E6D05D /* ErrorView.swift */; };
+		46ABC365ED518B82E7E8028F /* ReconnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35392DAFD95E85C74E7B609 /* ReconnectingView.swift */; };
+		4CF12C1A5BA637DCAC81546A /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = B3580A93DD1287DC740815F9 /* LiveViewNativeLiveForm */; };
+		5A3E5A93C3E6EC0930158E8E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77656E1C917B8D87E1BE9F39 /* Preview Assets.xcassets */; };
+		62E0C2C7DAB3EB3A0065238D /* BuzzClub.swift in Sources */ = {isa = PBXBuildFile; fileRef = C893D579AEC1F4A25DD4696C /* BuzzClub.swift */; };
+		65DD55597B11FCABF0F9CBBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FD2A4D1F065FB2CA165418 /* ContentView.swift */; };
+		7A2AF1AB6537E49B68046361 /* LiveViewNativeLiveForm in Frameworks */ = {isa = PBXBuildFile; productRef = 2D1490E10599882AB68C383B /* LiveViewNativeLiveForm */; };
+		8DAE02BE1483688D7F850973 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5AC1D50C1914FC80E6D05D /* ErrorView.swift */; };
+		95BE265B8D5E5B2B6D2DDBFC /* ConnectingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745210B07B02E3D8FD1F151 /* ConnectingView.swift */; };
+		B73A4FCFED3A0FBD2373515B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FD2A4D1F065FB2CA165418 /* ContentView.swift */; };
+		C4769EEF5366132D99D1D078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E92A9B136F9AF5189020018 /* Assets.xcassets */; };
+		DF4302D5F1F94AD833F7A956 /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB68CAAF5CDF1AACF2A30D5 /* DisconnectedView.swift */; };
+		E0F328251BD82A4C7E4F2315 /* DisconnectedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB68CAAF5CDF1AACF2A30D5 /* DisconnectedView.swift */; };
+		E306AABC2E5A52269BED1FE2 /* LiveViewNative in Frameworks */ = {isa = PBXBuildFile; productRef = A6EA88B7F62702E83ABBEF43 /* LiveViewNative */; };
+		F45606449375919BC6724444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E92A9B136F9AF5189020018 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1745210B07B02E3D8FD1F151 /* ConnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectingView.swift; sourceTree = "<group>"; };
+		44FD2A4D1F065FB2CA165418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5BB68CAAF5CDF1AACF2A30D5 /* DisconnectedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisconnectedView.swift; sourceTree = "<group>"; };
+		5C5AC1D50C1914FC80E6D05D /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		5E92A9B136F9AF5189020018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77656E1C917B8D87E1BE9F39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		97AE04ABFF2380E77E05B2C8 /* BuzzClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BuzzClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C893D579AEC1F4A25DD4696C /* BuzzClub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuzzClub.swift; sourceTree = "<group>"; };
+		DD4323750E3F222432E1BA18 /* BuzzClub Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BuzzClub Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E35392DAFD95E85C74E7B609 /* ReconnectingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReconnectingView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		296DDDA8EE03A4BC4AD54D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FBE4BB233E6B5460D7E0C13 /* LiveViewNative in Frameworks */,
+				4CF12C1A5BA637DCAC81546A /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAB91F4A05E025386026287C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E306AABC2E5A52269BED1FE2 /* LiveViewNative in Frameworks */,
+				7A2AF1AB6537E49B68046361 /* LiveViewNativeLiveForm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AEEB7746CCEA7FB3EE843A2 /* BuzzClub */ = {
+			isa = PBXGroup;
+			children = (
+				63C888A05DF32CA98E557938 /* Preview Content */,
+				5E92A9B136F9AF5189020018 /* Assets.xcassets */,
+				C893D579AEC1F4A25DD4696C /* BuzzClub.swift */,
+				1745210B07B02E3D8FD1F151 /* ConnectingView.swift */,
+				44FD2A4D1F065FB2CA165418 /* ContentView.swift */,
+				5BB68CAAF5CDF1AACF2A30D5 /* DisconnectedView.swift */,
+				5C5AC1D50C1914FC80E6D05D /* ErrorView.swift */,
+				E35392DAFD95E85C74E7B609 /* ReconnectingView.swift */,
+			);
+			path = BuzzClub;
+			sourceTree = "<group>";
+		};
+		326E2FFD93038A31A49B41D8 = {
+			isa = PBXGroup;
+			children = (
+				1AEEB7746CCEA7FB3EE843A2 /* BuzzClub */,
+				ABC893D63D06FFE5F1D61D7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63C888A05DF32CA98E557938 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				77656E1C917B8D87E1BE9F39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABC893D63D06FFE5F1D61D7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD4323750E3F222432E1BA18 /* BuzzClub Watch App.app */,
+				97AE04ABFF2380E77E05B2C8 /* BuzzClub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF02736972E406FF24A9D3C0 /* BuzzClub Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 851F8C96E8E4897025819C29 /* Build configuration list for PBXNativeTarget "BuzzClub Watch App" */;
+			buildPhases = (
+				01178B10873E4EB98F4C251C /* Sources */,
+				81A5AD888E85C6633B85BD00 /* Resources */,
+				BAB91F4A05E025386026287C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BuzzClub Watch App";
+			packageProductDependencies = (
+				A6EA88B7F62702E83ABBEF43 /* LiveViewNative */,
+				2D1490E10599882AB68C383B /* LiveViewNativeLiveForm */,
+			);
+			productName = "BuzzClub Watch App";
+			productReference = DD4323750E3F222432E1BA18 /* BuzzClub Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE6E0E68A1429ADCA10CA8B7 /* BuzzClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 170373CBAB80884659282DC5 /* Build configuration list for PBXNativeTarget "BuzzClub" */;
+			buildPhases = (
+				ED71C0DD8649043E5C475418 /* Sources */,
+				925C141CD9179D708BBA8FA3 /* Resources */,
+				296DDDA8EE03A4BC4AD54D80 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BuzzClub;
+			packageProductDependencies = (
+				3849B2C95721FBCF958A16FF /* LiveViewNative */,
+				B3580A93DD1287DC740815F9 /* LiveViewNativeLiveForm */,
+			);
+			productName = BuzzClub;
+			productReference = 97AE04ABFF2380E77E05B2C8 /* BuzzClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D67160DD43C58369A0FD27A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				ORGANIZATIONNAME = Devilray;
+			};
+			buildConfigurationList = 09641176350D56A96D91AD13 /* Build configuration list for PBXProject "BuzzClub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 326E2FFD93038A31A49B41D8;
+			packageReferences = (
+				30E86E990A4E10810D92DCFF /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */,
+				8F96B33CCEE85712FFA8FCB5 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE6E0E68A1429ADCA10CA8B7 /* BuzzClub */,
+				CF02736972E406FF24A9D3C0 /* BuzzClub Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81A5AD888E85C6633B85BD00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4769EEF5366132D99D1D078 /* Assets.xcassets in Resources */,
+				5A3E5A93C3E6EC0930158E8E /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925C141CD9179D708BBA8FA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45606449375919BC6724444 /* Assets.xcassets in Resources */,
+				3A4CB1E26C0D98B893955703 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01178B10873E4EB98F4C251C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A2F771A53488611BA561FB5 /* BuzzClub.swift in Sources */,
+				95BE265B8D5E5B2B6D2DDBFC /* ConnectingView.swift in Sources */,
+				65DD55597B11FCABF0F9CBBC /* ContentView.swift in Sources */,
+				E0F328251BD82A4C7E4F2315 /* DisconnectedView.swift in Sources */,
+				8DAE02BE1483688D7F850973 /* ErrorView.swift in Sources */,
+				2E0A143F13DE27CABA518BFC /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED71C0DD8649043E5C475418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62E0C2C7DAB3EB3A0065238D /* BuzzClub.swift in Sources */,
+				28AC135EC4F5D59AAEA06002 /* ConnectingView.swift in Sources */,
+				B73A4FCFED3A0FBD2373515B /* ContentView.swift in Sources */,
+				DF4302D5F1F94AD833F7A956 /* DisconnectedView.swift in Sources */,
+				43F042329643E192486D37F7 /* ErrorView.swift in Sources */,
+				46ABC365ED518B82E7E8028F /* ReconnectingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0816C0B97750C5FC0192CB10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = C472L2ZJGG;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BuzzClub;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+		1A598E33F6223FB73F4235FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BuzzClub.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		543578A08B516C062327A2B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BuzzClub;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.BuzzClub;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		C7314A4F918A6D1EF004AA30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = C472L2ZJGG;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BuzzClub;
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator appletvos appletvsimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		CEFF3800A97E72AB14DD4524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BuzzClub;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.example.BuzzClub;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TVOS_DEPLOYMENT_TARGET = 16.0;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		F40428D1DB05E3C10C90DAB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.BuzzClub.watchkit;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09641176350D56A96D91AD13 /* Build configuration list for PBXProject "BuzzClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFF3800A97E72AB14DD4524 /* Debug */,
+				543578A08B516C062327A2B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		170373CBAB80884659282DC5 /* Build configuration list for PBXNativeTarget "BuzzClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0816C0B97750C5FC0192CB10 /* Debug */,
+				C7314A4F918A6D1EF004AA30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		851F8C96E8E4897025819C29 /* Build configuration list for PBXNativeTarget "BuzzClub Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40428D1DB05E3C10C90DAB3 /* Debug */,
+				1A598E33F6223FB73F4235FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		30E86E990A4E10810D92DCFF /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-client-swiftui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+		8F96B33CCEE85712FFA8FCB5 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/liveview-native/liveview-native-live-form";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D1490E10599882AB68C383B /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F96B33CCEE85712FFA8FCB5 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+		3849B2C95721FBCF958A16FF /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30E86E990A4E10810D92DCFF /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		A6EA88B7F62702E83ABBEF43 /* LiveViewNative */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30E86E990A4E10810D92DCFF /* XCRemoteSwiftPackageReference "liveview-client-swiftui" */;
+			productName = LiveViewNative;
+		};
+		B3580A93DD1287DC740815F9 /* LiveViewNativeLiveForm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F96B33CCEE85712FFA8FCB5 /* XCRemoteSwiftPackageReference "liveview-native-live-form" */;
+			productName = LiveViewNativeLiveForm;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4D67160DD43C58369A0FD27A /* Project object */;
+}
